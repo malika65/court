@@ -1,0 +1,57 @@
+body{
+    background: #000;
+}
+
+.cont {
+    overflow:hidden;
+    border:1px solid red;
+    font-size:2rem;
+
+}
+.cont, .front, .back {
+    width:200px;
+    height:215px;
+}
+.front, .back {
+    float:left;
+    transition: all 0.5s;
+}
+.cont:hover .front  {
+    margin-left:-290px;
+
+}
+.front{
+
+}
+.card{
+    position: relative;
+}
+.card-body{
+    background: #5d6bbd;
+    height: 100px;
+    position: absolute;
+    top: 0;
+}
+.back {
+    margin-left:-400px;
+
+}
+.cont:hover .back {
+    margin-left:0;
+}
+p {
+    margin:10px;
+}
+
+.menu__row{
+    margin: 100px auto;
+}
+.item{
+    overflow:hidden;
+    width: 200px;
+    height: 215px;
+    border: 1px solid ;
+}
+.item__main{
+
+}
