@@ -7,3 +7,7 @@ def index(request):
 def main(request):
     
     return render(request, 'index2.html')
+
+def news(request):
+    
+    return render(request, 'news.html')

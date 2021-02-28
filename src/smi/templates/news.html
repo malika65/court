@@ -1,0 +1,178 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'style/style3.css' %}">
+    <title>Document</title>
+</head>
+<body>
+<section class="header__news">
+    <div class="header_link">
+        <a class="header_logo" href="">Портал новостей</a>
+        <nav>
+            <a href="">Пресс-секретарь</a>
+            <a href="">Новости</a>
+            <a href="">Статьи</a>
+            <a href="">Фото-галерея</a>
+            <a href="">Видео-галерея</a>
+            <a href="">События и мероприятия</a>
+            <a href="">Все новости</a>
+
+        </nav>
+    </div>
+</section>
+<section class="news" id="news">
+<div class="container">
+    <div class="title">
+        Главные новости
+    </div>
+    <div class="sidebar">
+        <div class="sidebar_categories-title">
+            Пресс-центр
+        </div>
+        <a href="#" class="categories_btn"><span>Все новости</span></a>
+        <a href="#" class="categories_btn"><span>Новости</span><span>(7)</span></a>
+        <a href="#" class="categories_btn"><span>Статьи</span><span>(16)</span></a>
+        <a href="#" class="categories_btn"><span>Фото-галерея</span><span>(5)</span></a>
+        <a href="#" class="categories_btn"><span>События и мероприятия</span><span>(12)</span></a>
+    </div>
+    <div class="news__content">
+        <div class="col6">
+            <a href="#" class="news__link">
+                <div class="item">
+                    <img src="{% static 'img/images/news.jpg' %}" alt="">
+                    <p class="item_text">новости</p>
+                    <span class="item_title">
+                        встреча глав государства
+                    </span>
+                    <p class="item_date-text">
+                        24 феврвля 2021 года
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="col6">
+            <a href="#"class="news__link">
+                <div class="item">
+                    <img src="{% static 'img/images/news.jpg' %}" alt="">
+                    <p class="item_text">новости</p>
+                    <span class="item_title">
+                        встреча глав государства
+                    </span>
+                    <p class="item_date-text">
+                        24 феврвля 2021 года
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="title">
+            События недели
+        </div>
+        <div class="col4">
+            <a href="#"class="news__link">
+                <div class="item">
+                    <img src="{% static 'img/images/news.jpg' %}" alt="">
+                    <p class="item_text">новости</p>
+                    <span class="item_title-event">
+                        встреча глав государства
+                    </span>
+                    <p class="item_date-text">
+                        24 феврвля 2021 года
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="col4">
+            <a href="#"class="news__link">
+                <div class="item">
+                    <img src="{% static 'img/images/news.jpg' %}" alt="">
+                    <p class="item_text">новости</p>
+                    <span class="item_title-event">
+                        встреча глав государства
+                    </span>
+                    <p class="item_date-text">
+                        24 феврвля 2021 года
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="col4">
+            <a href="#"class="news__link">
+                <div class="item">
+                    <img src="{% static 'img/images/news.jpg' %}" alt="">
+                    <p class="item_text">новости</p>
+                    <span class="item_title-event">
+                        встреча глав государства
+                    </span>
+                    <p class="item_date-text">
+                        24 феврвля 2021 года
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="title">
+            Новости
+        </div>
+        <div class="col12">
+            <a href="#" class="events_link">
+                <div class="events_block">
+                    <div class="events_image">
+                        <img src="{% static 'img/images/newsMatr.jpg' %}" alt="">
+                    </div>
+                    <div class="reasons_descr">
+                        <div class="events_title">Заголовок статьи, краткое описание</div>
+                        <div class="events_subtitle">Заголовок статьи с кратким содержанием или отрывок взятый из какой-либо статьи для обозрения</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col12">
+            <a href="#" class="events_link">
+                <div class="events_block">
+                    <div class="events_image">
+                        <img src="{% static 'img/images/newsMatr.jpg' %}" alt="">
+                    </div>
+                    <div class="reasons_descr">
+                        <div class="events_title">Заголовок статьи, краткое описание</div>
+                        <div class="events_subtitle">Заголовок статьи с кратким содержанием или отрывок взятый из какой-либо статьи для обозрения</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col12">
+            <a href="#" class="events_link">
+                <div class="events_block">
+                    <div class="events_image">
+                        <img src="{% static 'img/images/newsMatr.jpg' %}" alt="">
+                    </div>
+                    <div class="reasons_descr">
+                        <div class="events_title">Заголовок статьи, краткое описание</div>
+                        <div class="events_subtitle">Заголовок статьи с кратким содержанием или отрывок взятый из какой-либо статьи для обозрения</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="pagination">
+            <a href="#" class="older_post">
+                <span><</span> Пред..
+            </a>
+            <a href="#" class="page_number">1</a>
+            <a href="#" class="page_number">2</a>
+            <a href="#" class="page_number">3</a>
+            <a href="#" class="page_number">...</a>
+            <a href="#" class="page_number">8</a>
+            <a href="#" class="next_post">
+                Следующая  <span>></span>
+            </a>
+        </div>
+    </div>
+
+</div>
+</section>
+</body>
+</html>
